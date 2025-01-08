@@ -29,3 +29,17 @@ func SetToCache(key, value string, expiration int32) error {
 		Expiration: expiration,
 	})
 }
+
+// Prefiks bilan ishlash
+// func GetFromCache(prefix, key string) (string, error) {
+// 	fullKey := prefix + ":" + key
+// 	item, err := Cache.Get(fullKey)
+// 	if err != nil {
+// 		log.Println("Keshdan olishda xato:", err)
+// 		return "", err
+// 	}
+// 	return string(item.Value), nil
+// }
+
+// funksiyani chaqirish uchun
+// url, _ := cache.GetFromCache("urls", "abc123")

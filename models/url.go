@@ -2,7 +2,6 @@ package models
 
 import "time"
 
-// URL modeli
 type URL struct {
 	ID        int       `db:"id"`
 	ShortCode string    `db:"short_code"`

@@ -6,6 +6,7 @@ require (
 	github.com/bradfitz/gomemcache v0.0.0-20230905024940-24af94b03874
 	github.com/gin-gonic/gin v1.10.0
 	github.com/jmoiron/sqlx v1.4.0
+	github.com/joho/godotenv v1.5.1
 	github.com/lib/pq v1.10.9
 )
 

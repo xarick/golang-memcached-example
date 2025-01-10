@@ -1,6 +1,6 @@
 # golang-memcached-example
 
-- Javdal qo'shish
+- SQL code to add a table
 ```sql
 CREATE TABLE urls (
     id SERIAL PRIMARY KEY,
@@ -10,7 +10,7 @@ CREATE TABLE urls (
 );
 ```
 
-- Memcached-ni docker bilan ishga tushirish
+- Running Memcached with docker
 ```bash
 docker run -d --name memcached -p 11211:11211 memcached:latest memcached -m 128
 ```
